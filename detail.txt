@@ -1,0 +1,163 @@
+Last login: Sat Oct 15 08:34:53 on console
+/Users/hidrighebretinsae/.zshrc:1: command not found: clea
+hidrighebretinsae@Hidris-MacBook-Pro ~ % cd Desktop
+hidrighebretinsae@Hidris-MacBook-Pro Desktop % mkdir midtermHidri
+hidrighebretinsae@Hidris-MacBook-Pro Desktop % cd midtermHidri
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git clone https://github.com/Afom25/cs425-swe-202210-midterm-repo.git
+Cloning into 'cs425-swe-202210-midterm-repo'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (5/5), 4.78 KiB | 4.78 MiB/s, done.
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git init 
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/hidrighebretinsae/Desktop/midtermHidri/.git/
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git branch 
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git checkout branch
+error: pathspec 'branch' did not match any file(s) known to git
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git checkout branch
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git branch hidri_account-mgmt
+fatal: not a valid object name: 'master'
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git branch -M main
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git checkout branch          
+error: pathspec 'branch' did not match any file(s) known to git
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git branch hidri_account-mgmt
+fatal: not a valid object name: 'main'
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git checkout 
+fatal: You are on a branch yet to be born
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git add .
+warning: adding embedded git repository: cs425-swe-202210-midterm-repo
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> cs425-swe-202210-midterm-repo
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached cs425-swe-202210-midterm-repo
+hint: 
+hint: See "git help submodule" for more information.
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git add .
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git commit -m "this commit will add the first"
+[main (root-commit) f8e8e40] this commit will add the first
+ 1 file changed, 1 insertion(+)
+ create mode 160000 cs425-swe-202210-midterm-repo
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git branch hidri_account-mgmt                 
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git checkout                                  
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git branch checkout 
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git  checkout  
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git  checkout branch
+error: pathspec 'branch' did not match any file(s) known to git
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git branch hidri_accounts-mgmt
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git status
+On branch main
+nothing to commit, working tree clean
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git checkout hidri-accounts-mgmt
+error: pathspec 'hidri-accounts-mgmt' did not match any file(s) known to git
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % git checkout hidri_accounts-mgmt
+Switched to branch 'hidri_accounts-mgmt'
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % touch Account.java
+hidrighebretinsae@Hidris-MacBook-Pro midtermHidri % cd ..
+hidrighebretinsae@Hidris-MacBook-Pro Desktop % mkdir newmidtermHidri
+hidrighebretinsae@Hidris-MacBook-Pro Desktop % cd newmidtermHidri
+hidrighebretinsae@Hidris-MacBook-Pro newmidtermHidri % git clone https://github.com/Afom25/cs425-swe-202210-midterm-repo.git
+Cloning into 'cs425-swe-202210-midterm-repo'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (5/5), 4.78 KiB | 4.78 MiB/s, done.
+hidrighebretinsae@Hidris-MacBook-Pro newmidtermHidri % cd cs425-swe-202210-midterm-repo
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git init 
+Reinitialized existing Git repository in /Users/hidrighebretinsae/Desktop/newmidtermHidri/cs425-swe-202210-midterm-repo/.git/
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git checkout hidri_accounts-mgmt
+error: pathspec 'hidri_accounts-mgmt' did not match any file(s) known to git
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git add .
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git commit -m "this commit will add the first"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git checkout hidri_accounts-mgm
+error: pathspec 'hidri_accounts-mgm' did not match any file(s) known to git
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git branch hidri_accounts-mgmt
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git checkout hidri_accounts-mgm
+error: pathspec 'hidri_accounts-mgm' did not match any file(s) known to git
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git checkout hidri_accounts-mgmt
+Switched to branch 'hidri_accounts-mgmt'
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % touch Account.java
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git add .
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git commit -m "this commit will add the account.java"
+[hidri_accounts-mgmt f819bb7] this commit will add the account.java
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Account.java
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git merge hidri_accounts-mgmt
+Updating f3e9df3..f819bb7
+Fast-forward
+ Account.java | 2 ++
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Account.java
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 400 bytes | 400.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Afom25/cs425-swe-202210-midterm-repo.git
+   f3e9df3..f819bb7  main -> main
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % git log 
+commit f819bb76b49991803d7fbaf78f6216486677e2cd (HEAD -> main, origin/main, origin/HEAD, hidri_accounts-mgmt)
+Author: Hidri <me@example.com>
+Date:   Sat Oct 15 10:18:23 2022 -0500
+
+    this commit will add the account.java
+
+commit f3e9df3e31c67a51a12f3363d1698497732ab66d
+Author: Prof. O. Kalu <64035518+okalu@users.noreply.github.com>
+Date:   Sat Oct 15 08:13:37 2022 -0500
+
+    Initial commit
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % touch detail.txt
+hidrighebretinsae@Hidris-MacBook-Pro cs425-swe-202210-midterm-repo % 
+
+
+
+
+
+
+steps :
+
+1. git fork  the https://github.com/Afom25/cs425-swe-202210-midterm-repo 
+2. git clone on the folder created and 
+3. git add 
+4 . git commit -m "the first commit "
+5. git branch hidri_accounts-mgmt
+6. git checkout hidri_accounts-mgmt
+7. touch Account.java 
+8. git add .
+9. git commit -m "this commit will add the account.java"
+10. git checkout main
+11. git merge hidri_accounts-mgmt
+12. git push origin main 
+
+
+
+
+
